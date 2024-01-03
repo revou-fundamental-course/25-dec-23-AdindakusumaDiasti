@@ -1,0 +1,233 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred;
+  }
+
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+  }
+
+  .content {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+h1, p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+h2 {
+    text-decoration-color: palevioletred;
+    text-align: center;
+}
+
+h2, p {
+    font-size: 40px;
+}
+img {
+    margin-bottom: 20px;
+  }
+  
+  .special-paragraph {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  p {
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+::-webkit-scrollbar {
+    background-color: peachpuff;
+    box-shadow: inset 0px 0px 5px peachpuff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: papayawhip;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: papayawhip;
+}
+
+/* HEADER */
+
+.navbar {
+    background-color: peachpuff;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    box-shadow: 1px 1px 8px(peachpuff, 52, 52);
+    padding: 15px 0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: palevioletred;
+    text-shadow: 2px 2px #595956;
+    font-size: 35px;
+    margin-left: 0;
+    padding: 0;
+}
+
+.logo-img {
+    scale: 200%;
+    margin: 50px;
+    padding: 50px;
+}
+
+/* CONTENT / MAIN */
+.sederhana {
+    text-align: center;
+    text-shadow: 1px 1px #757571;
+}
+
+#sederhana {
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+#sederhana {
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+b{
+    font-size: 27px;
+}
+
+.choose-line {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    margin-top: 15%;
+    font-weight: bolder;
+}
+
+.triangle {
+    margin-top: 15%;
+    background-color: palevioletred;
+    font-size: 30px;
+    padding: 5px 30px 5px 30px;
+    color: pink;
+    text-align: center;
+    box-shadow: 2px 2px 8px #1f2626;
+    font-weight: bold;
+}
+
+.cot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(3px 3px 4px gray);
+}
+
+.triangle-calculation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    margin: 0px 50px 0px 50px;
+    border-radius: 5px;
+    scale: 150%;
+}
+
+.input-labels {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.buttons {
+    text-decoration: none;
+    padding: 8px;
+    transform: translateY(5px);
+    font-size: 20px;
+    color: palevioletred;
+    font-weight: bolder;
+    border-radius: 3px;
+    transition: .2s ease-out;
+    background-color: blanchedalmond;
+    box-shadow: 0px 2px  blanchedalmond;
+}
+
+.buttons:hover {
+    background-color:blanchedalmond;
+    border-radius: 5px;
+    transition: .3s ease-in;
+    font-size: 35px;
+}
+.keliling,
+.luas {
+  margin-top: 40px;
+  text-decoration: bold;
+  text-align: center;
+}
+
+.selection-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(20px);
+}
+
+#aot-button {
+    padding: 8px 50px 8px 50px;
+}
+
+.result-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

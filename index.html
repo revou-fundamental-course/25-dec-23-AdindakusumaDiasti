@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mathematics Calculator</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="Assets/Logo.png">
+        <script type="text/javascript" src="js/script.js"></script>    
+    </head>
+    <body>
+        <header class="navbar">
+            <img class="logo-img" src="katik-logo.png" alt="Website's Logo">
+            <h1> KATIK - </h1>
+            <h1>Kalkulator Matematik-</h1>
+        </header>
+        <main class="content">
+            <h1 class="sederhana">Welcome to katik</strong></h1>
+            <p class="sederhana">Hai Sobat, Selamat datang di Katik :]</p>
+            <p class="sederhana">Sebuah web app sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p></h1>
+            <h2>Segitiga</h2>
+            <img src="segitiga.jpg" alt="Segitiga" width="200" height="150">
+            <p>Rumus segitiga yaitu:</p>
+            <p class="special-paragraph">L = 1/2 x a x t</p>
+            <p>Di mana :</p></h2>
+            <p>L = Luas</p></h2>
+            <p>A = Alas</p></h2>
+            <p>T = Tinggi</p></h2>
+            <p class="choose-line">Choose&nbsp;Your&nbsp;Calculation</strong></p>
+            <div class="selection-buttons">
+                <button class="buttons" id="cot-button" onclick="location.href='#cot'">keliling</button>
+                <button class="buttons" id="aot-button" onclick="location.href='#aot'">Luas</button>
+            </div>
+            <div>
+                <p class="triangle" id="cot">HITUNG KELILING SEGITIGA</p>
+                <!-- cot = HITUNG KELILING SEGITIGA -->
+            </div>
+            <div class="image-container">
+                <img src="segitiga.jpg" alt="gambar keliling segitiga" class="cot-img">
+            </div>
+            <div class="triangle-calculation" id="cot-result">
+                <label class="input-labels" for="sideA">Side A</label>
+                <input class="inputs" type="text" id="sideA" placeholder="Enter side A">
+            
+                <label class="input-labels" for="sideB">Side B</label>
+                <input class="inputs" type="text" id="sideB" placeholder="Enter side B">
+            
+                <label class="input-labels" for="sideC">Side C</label>
+                <input class="inputs" type="text" id="sideC" placeholder="Enter side C">
+            </div>
+            <div class="result-button">
+                <button class="buttons" onclick="calculateCircumference()">Confirm</button>
+                <button class="buttons" onclick="resetCircumferenceForm()">Reset</button>
+            </div>
+            <p class="result" id='resultCircumference'></p>
+
+            <p class="triangle" id="cot">HITUNG LUAS SEGITIGA</p>
+            <!-- cot = HITUNG LUAS SEGITIGA -->
+            <div class="image-container">
+                <img src="segitiga.jpg" alt="GAMBAR LUAS SEGITIGA" class="aot-img">
+            </div>
+            <div class="triangle-calculation" id="aot-result">
+                <label class="input-labels" for="base">Base</label>
+                <input class="inputs" type="text" id="base" placeholder="Enter Base">
+            
+                <label class="input-labels" for="height">Height</label>
+                <input class="inputs" type="text" id="height" placeholder="Enter Height">
+            </div>
+            <div class="result-button">
+                <button class="buttons" onclick="calculateArea()">Confirm</button>
+                <button class="buttons" onclick="resetAreaForm()">Reset</button>
+            </div>
+            <p class="result" id="resultArea"></p>
+        </main>
+        <footer class="footer">
+            Copyright 2023 •All rights reserved • Adinda Kusuma Diasti
+    </body>
+</html>
